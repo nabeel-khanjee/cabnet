@@ -1,0 +1,105 @@
+body{
+    font-family: 'Oxygen', sans-serif;
+    color: rgb(255, 255, 255) !important;
+    background-attachment: fixed;
+    background-image:
+  linear-gradient(to right, #000000, #ffffff)  
+}
+.social-icon{
+    color: rgb(0, 0, 0);
+    margin: 10px;
+}
+.carousel{
+    margin-top: 55px;
+}
+.d-block{
+    height: 500px;
+}
+.bg-darks{
+    background-color: #000000;
+}
+.text-left{
+    color: #fff;
+}
+#home h5{
+    font-family: sans-serif;
+    font-weight: 900;
+    font-size: 3.5rem;
+}
+#press{
+    background-color: #727070;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-img{
+    width: 15% ;
+    margin: 20px 20px 50px;
+}
+/* pricing */
+#pricing{
+    background-color: rgb(182, 177, 177);
+    text-align: center;
+    padding: 100px;
+}
+.pricing-col {
+    padding: 3% 2%;
+}
+#others{
+    margin-bottom: 50px;
+}
+
+#footer{
+    padding: 5%;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+#footer .footer-icon{
+    margin: 10px;
+    color: rgb(0, 0, 0);
+}
+.box20,.box20 .icon li a{overflow:hidden}
+.mt-30{margin-top:30px}
+.mt-40{margin-top:40px}
+.mb-30{margin-bottom:30px}
+.box20{position:relative}
+.box20:after,.box20:before{position:absolute;content:""}
+.box20:before{width:80%;height:220%;background:#000000;top:-50%;left:-100%;z-index:1;transform:rotate(25deg);transform-origin:center top 0;transition:all .5s ease 0s}
+.box20:hover:before{left:10%}
+.box20:after{width:55%;height:175%;background-color:rgba(255, 255, 255, 0.8);bottom:-1000%;left:53%;transform:rotate(-33deg);transform-origin:center bottom 0;transition:all .8s ease 0s}
+.box20 .box-content,.box20 .icon{width:100%;padding:0 20px;position:absolute;left:0;z-index:2;transition:all 1.1s ease 0s}
+.box20:hover:after{bottom:-70%}
+.box20 img{width:100%;height:350px;border-radius: 30%;}
+.box20 .box-content{top:-100%;color:#fff}
+.box20:hover .box-content{top:30px}
+.box20 .title{font-size:24px;margin:0}
+.box20 .icon li a,.box20 .post{display:inline-block;font-size:14px}
+.box20 .post{margin-top:5px}
+.box20 .icon{list-style:none;margin:0;bottom:-100%}
+.box20:hover .icon{bottom:25px}
+.box20 .icon li{display:inline-block}
+.box20 .icon li a{width:35px;height:35px;line-height:35px;background:#444;border-radius:50%;margin:0 3px;color:#fff;text-align:center;transition:all .5s ease 0s}
+.box20 .icon li a:hover{background:#fff;color:#000000}
+@media only screen and (max-width:990px){.box20{margin-bottom:30px;}
+#home h5{
+    font-size: 2rem;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+#home img{
+    height: 400px;
+    padding: 0;
+    margin: 0;
+}
+}
+@media only screen and (max-width:479px){.box20 .title{font-size:20px}
+#home h5{
+    font-size: 1rem;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+#home img{
+    height: 300px;
+    padding: 0;
+    margin: 0;
+}
+}
